@@ -6,12 +6,12 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
   instance:
     hostname: localhost
-management:
-  metrics:
-    export:
-      prometheus:
-        enabled: true
-  endpoints:
-    web:
-      exposure:
-        include: prometheus,metrics
+#management:
+#  metrics:
+#    export:
+#      prometheus:
+#        enabled: true
+#  endpoints:
+#    web:
+#      exposure:
+#        include: prometheus,metrics
